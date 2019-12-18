@@ -75,7 +75,7 @@ int main(){
     create_pallete();
 
     fractal(red,green,blue,1000,1000);
-    write_to_ppm(red,green,blue,1000,1000,"hello.ppm");
+    write_to_ppm(red,green,blue,1000,1000,"mandelbrot.ppm");
 
     delete[] red;
     delete[] green;
